@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZJCWaveTabbar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZJCWaveTabbar (from `../`)
+
+EXTERNAL SOURCES:
+  ZJCWaveTabbar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZJCWaveTabbar: fadfc4b91e45459a7f87efa3d8ac99a8d5f15bcd
+
+PODFILE CHECKSUM: 2c30c7f6688cbab533e075d75e785861f3b49f5b
+
+COCOAPODS: 1.2.1.rc.1

@@ -1,0 +1,22 @@
+{
+  "name": "ZJCWaveTabbar",
+  "version": "0.1.0",
+  "summary": "A short description of ZJCWaveTabbar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaochuan171090331@outlook.com/ZJCWaveTabbar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaochuan171090331@outlook.com": "xiaochuan171090331@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/xiaochuan171090331@outlook.com/ZJCWaveTabbar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZJCWaveTabbar/Classes/**/*"
+}

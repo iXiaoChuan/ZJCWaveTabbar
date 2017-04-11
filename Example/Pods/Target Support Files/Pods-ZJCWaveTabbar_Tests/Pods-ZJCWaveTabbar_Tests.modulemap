@@ -1,0 +1,6 @@
+framework module Pods_ZJCWaveTabbar_Tests {
+  umbrella header "Pods-ZJCWaveTabbar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
