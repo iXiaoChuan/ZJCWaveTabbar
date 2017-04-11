@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZJCWaveTabbar_Example' do
+  pod 'ZJCWaveTabbar', :path => '../'
+
+  target 'ZJCWaveTabbar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
