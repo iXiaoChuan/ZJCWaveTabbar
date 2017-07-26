@@ -12,17 +12,12 @@
     "iXiaoChuan": "xiaochuan171090331@outlook.com"
   },
   "source": {
-    "git": "https://github.com/iXiaoChuan/ZJCWaveTabbar",
+    "git": "https://github.com/iXiaoChuan/ZJCWaveTabbar.git",
     "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "ZJCWaveTabbar/Classes/**/*",
-  "resource_bundles": {
-    "ZJCWaveTabbar": [
-      "ZJCWaveTabbar/Assets/*.wav"
-    ]
-  }
+  "source_files": "ZJCWaveTabbar/Classes/**/*"
 }

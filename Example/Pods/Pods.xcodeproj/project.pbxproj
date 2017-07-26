@@ -7,53 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00EE95487E38390501DC048350C0869B /* DrawRectObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B5916127BA77067C339C9A23BD4414 /* DrawRectObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00EE95487E38390501DC048350C0869B /* DrawRectObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AE95E0AFE3EA708E0210E577000AABE3 /* DrawRectObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		10AE807ADA3BAA41B8C4B4ED8F1C4264 /* ZJCWaveTabbar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E430F9DD0E5040FB75FAE7996236BB4B /* ZJCWaveTabbar.bundle */; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		2519F31BDE1D518D8EB6E845152E1CDC /* DrawingColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1F50FB86ED5C212729A8EDF6DBE2A9 /* DrawingColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2519F31BDE1D518D8EB6E845152E1CDC /* DrawingColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 03F2FDBD176C3F2B5FFE7A22FFA79A92 /* DrawingColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		25ABC19194E7BE59876D6D66E3DAC405 /* Pods-ZJCWaveTabbar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0E42730A283A62772F041F5C70B5A3 /* Pods-ZJCWaveTabbar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		275CBA6E1C25C2FA71E5AB58F877EB52 /* ZJCWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45AD6C4E0AFA625277B7D6EAC67134F4 /* ZJCWaveView.m */; };
+		275CBA6E1C25C2FA71E5AB58F877EB52 /* ZJCWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E318BE531E7AFC707BE2CA070013B /* ZJCWaveView.m */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30B71671A812D7000D53CCF018FB23A2 /* sound_press_short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4C687F0A0BA783246AF34003FCDAF13E /* sound_press_short.wav */; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		40238B908606B61DC157580CD32B7DF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		5B7459E268589558C7BF06CB28E30D40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		60C7867342EB62EB2FA29A430EA4D462 /* ReplicatorLineAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2610ABEB091B156397E9160B57F54491 /* ReplicatorLineAnimationView.m */; };
+		60C7867342EB62EB2FA29A430EA4D462 /* ReplicatorLineAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43F436046BBA3232257BB4C8A489AF89 /* ReplicatorLineAnimationView.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		88040D1BCF5CD9106316D80ED1C19BA8 /* sound_press_long.wav in Resources */ = {isa = PBXBuildFile; fileRef = 81AAE5038BE6932F20D60EB091F4305B /* sound_press_long.wav */; };
-		8E15DBFB1C9E72AD449C80D5CB521B30 /* ReplicatorLineAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B917FDD85B4897CDB58CEE2C42FC93 /* ReplicatorLineAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E15DBFB1C9E72AD449C80D5CB521B30 /* ReplicatorLineAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = FF105982F35DEE60830DE282A4A73949 /* ReplicatorLineAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2B34EE31B431D97946E391A2C28F407 /* Pods-ZJCWaveTabbar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6D607B5C2812EDD18D32F8700C0823 /* Pods-ZJCWaveTabbar_Tests-dummy.m */; };
-		A4499F80709E745252FED7A2BF3AE484 /* ZJCWaveTabarController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DFB983366F517D4459FDD860E1AD08 /* ZJCWaveTabarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4499F80709E745252FED7A2BF3AE484 /* ZJCWaveTabarController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD850D9A9A8C286D51B67A455F61BAD8 /* ZJCWaveTabarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		A9C83D2EBFA305A0CCB53CAF35251098 /* DrawingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FF67B176FBF172B34531FFB6041A125D /* DrawingStyle.m */; };
-		AD4927D9F8817A44E522F5CDB91133F7 /* DrawingStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D3D3003606E50E3067C7957E1D2AA8 /* DrawingStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFD1E0592364C69B648294D2B9D453BB /* CustomDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B838C9C61B818B05B26996E870D98EA /* CustomDrawingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C83D2EBFA305A0CCB53CAF35251098 /* DrawingStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 499934B7B030C21FC34AC35E6791CED8 /* DrawingStyle.m */; };
+		AD4927D9F8817A44E522F5CDB91133F7 /* DrawingStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = A8B162287AE29D4BA32721AB1397F0AA /* DrawingStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFD1E0592364C69B648294D2B9D453BB /* CustomDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC11E149DDD8205E4EBC121C49C40473 /* CustomDrawingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B54E0890E6766611E79C35D4A7E86487 /* ZJCWaveTabarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F2B3419E590C4279479E7721461FF4 /* ZJCWaveTabarController.m */; };
-		B5539D5641480F1B5ABE7A33BC711465 /* ZJCWaveTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F8D1433AB87F4903AA364F1B049ED3 /* ZJCWaveTabbar-dummy.m */; };
+		B54E0890E6766611E79C35D4A7E86487 /* ZJCWaveTabarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A004E5B83168D27EDB302B2E975C8F6 /* ZJCWaveTabarController.m */; };
+		B5539D5641480F1B5ABE7A33BC711465 /* ZJCWaveTabbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4EBE6AC19676A8F2E22A39E8D7CD8 /* ZJCWaveTabbar-dummy.m */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA8284002DEF907D65810B2C331BE9BE /* ZJCWaveTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5BEC495E6F3AC22DAE853235EAEE7FF /* ZJCWaveTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8284002DEF907D65810B2C331BE9BE /* ZJCWaveTabbar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE0A1C50905482065B4F42EF593E516 /* ZJCWaveTabbar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2722E8BF4740E8B8907E4D7BD0AFBA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CD99C1698C583D6505B187A1F16D8279 /* Pods-ZJCWaveTabbar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D5C95DA23690A646CB02AA0B381EC6 /* Pods-ZJCWaveTabbar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D52758BD7E802E9C21BDC2D8269EAB4F /* CustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39B225CA03F39327EF9590EEC9AED45A /* CustomDrawingView.m */; };
-		D6F7F48ABC9A54A6E07356A87B6C7617 /* DrawingColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C65C86560140F4D1F80EF448653598 /* DrawingColor.m */; };
+		D52758BD7E802E9C21BDC2D8269EAB4F /* CustomDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B63B55745A3E4E38F00851EB06A1B0 /* CustomDrawingView.m */; };
+		D6F7F48ABC9A54A6E07356A87B6C7617 /* DrawingColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFD103A4B250BE0F804418A46AD825 /* DrawingColor.m */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		E625AC4D52B9B07D16ECB990C10941CC /* DrawRectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B948B967C011461F50BF4656C15405 /* DrawRectObject.m */; };
+		E625AC4D52B9B07D16ECB990C10941CC /* DrawRectObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B20241377324589824D83F49CFDA7BD6 /* DrawRectObject.m */; };
 		EB251FB62B5333D3336DFC23C6F1C26E /* Pods-ZJCWaveTabbar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D70F27CEF16C853A73CBACB1A96B2E1 /* Pods-ZJCWaveTabbar_Example-dummy.m */; };
-		F70EBB5D26F2AB97EA0C48602EAB1A2B /* ZJCWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8C0BF76EA52A08840443D1F2FCE55D /* ZJCWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70EBB5D26F2AB97EA0C48602EAB1A2B /* ZJCWaveView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A843481439952F96A5FE79C2C5EA640 /* ZJCWaveView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,90 +68,79 @@
 			remoteGlobalIDString = 2029CF5F37F0C7AFA2B09845243FA063;
 			remoteInfo = ZJCWaveTabbar;
 		};
-		F342E77BD43A21ED12C5685DE80DCFB4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26470F509767601C69F2735A9B87E081;
-			remoteInfo = "ZJCWaveTabbar-ZJCWaveTabbar";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		023E737FC21F031E098D5EC8C0FD2D17 /* ZJCWaveTabbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJCWaveTabbar-prefix.pch"; sourceTree = "<group>"; };
+		03F2FDBD176C3F2B5FFE7A22FFA79A92 /* DrawingColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawingColor.h; sourceTree = "<group>"; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		0B1F50FB86ED5C212729A8EDF6DBE2A9 /* DrawingColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawingColor.h; sourceTree = "<group>"; };
 		0D70F27CEF16C853A73CBACB1A96B2E1 /* Pods-ZJCWaveTabbar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJCWaveTabbar_Example-dummy.m"; sourceTree = "<group>"; };
 		0E10AE94B677009665067D1237BF8A93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E137A0F55F827D8A126B360112D61EA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10DA2B96E7325BF3A49B5F2598CDA275 /* ResourceBundle-ZJCWaveTabbar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZJCWaveTabbar-Info.plist"; sourceTree = "<group>"; };
-		1120D71CB51ECD28062FD07E61C836F2 /* Pods_ZJCWaveTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJCWaveTabbar_Example.framework; path = "Pods-ZJCWaveTabbar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E1FA3C5A65978F6BE4345C5FADE869 /* Pods_ZJCWaveTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJCWaveTabbar_Tests.framework; path = "Pods-ZJCWaveTabbar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		1F6D607B5C2812EDD18D32F8700C0823 /* Pods-ZJCWaveTabbar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJCWaveTabbar_Tests-dummy.m"; sourceTree = "<group>"; };
 		23BE26B8035EB710FC62D1A0D6FFE9C0 /* Pods-ZJCWaveTabbar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZJCWaveTabbar_Tests.modulemap"; sourceTree = "<group>"; };
 		24097AB6E2D01957778748CE1ECBDBEE /* Pods-ZJCWaveTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJCWaveTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		24D5C95DA23690A646CB02AA0B381EC6 /* Pods-ZJCWaveTabbar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJCWaveTabbar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2610ABEB091B156397E9160B57F54491 /* ReplicatorLineAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLineAnimationView.m; sourceTree = "<group>"; };
-		2B838C9C61B818B05B26996E870D98EA /* CustomDrawingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomDrawingView.h; sourceTree = "<group>"; };
+		2A004E5B83168D27EDB302B2E975C8F6 /* ZJCWaveTabarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZJCWaveTabarController.m; sourceTree = "<group>"; };
+		2A843481439952F96A5FE79C2C5EA640 /* ZJCWaveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZJCWaveView.h; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		34B63B55745A3E4E38F00851EB06A1B0 /* CustomDrawingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomDrawingView.m; sourceTree = "<group>"; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		39B225CA03F39327EF9590EEC9AED45A /* CustomDrawingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CustomDrawingView.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		3E82444C747F4D8C80EBB86B9E624154 /* ZJCWaveTabbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJCWaveTabbar.xcconfig; sourceTree = "<group>"; };
 		400A98AF550F817ECDCE76AB1A86C963 /* Pods-ZJCWaveTabbar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJCWaveTabbar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4251623B4D09E949ADC2EC75A58DFC24 /* ZJCWaveTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJCWaveTabbar.framework; path = ZJCWaveTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		45AD6C4E0AFA625277B7D6EAC67134F4 /* ZJCWaveView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZJCWaveView.m; sourceTree = "<group>"; };
-		46809374C11312F9213E7BEAB2563A15 /* ZJCWaveTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZJCWaveTabbar.modulemap; sourceTree = "<group>"; };
+		43F436046BBA3232257BB4C8A489AF89 /* ReplicatorLineAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLineAnimationView.m; sourceTree = "<group>"; };
 		498C22B9613EF60EBAB1BDF3AEC136B3 /* Pods-ZJCWaveTabbar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJCWaveTabbar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4C687F0A0BA783246AF34003FCDAF13E /* sound_press_short.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = sound_press_short.wav; sourceTree = "<group>"; };
-		4E8C0BF76EA52A08840443D1F2FCE55D /* ZJCWaveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZJCWaveView.h; sourceTree = "<group>"; };
+		499934B7B030C21FC34AC35E6791CED8 /* DrawingStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawingStyle.m; sourceTree = "<group>"; };
 		4ED26EFD29040B83FC21D99B6D03ECBF /* Pods-ZJCWaveTabbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJCWaveTabbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		56BBE4B0F98AF3DC73A330F9D2CCC7ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56C65C86560140F4D1F80EF448653598 /* DrawingColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawingColor.m; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		5A4E318BE531E7AFC707BE2CA070013B /* ZJCWaveView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZJCWaveView.m; sourceTree = "<group>"; };
 		5B7DDA02A8A19462746F106FD9DFC2C7 /* Pods-ZJCWaveTabbar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJCWaveTabbar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6ADFD103A4B250BE0F804418A46AD825 /* DrawingColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawingColor.m; sourceTree = "<group>"; };
 		6E66B4218824CF8160D93713DDBEEA82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70B948B967C011461F50BF4656C15405 /* DrawRectObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawRectObject.m; sourceTree = "<group>"; };
+		73ABD6D026A0CBA1A91D9FA324ACCE0E /* ZJCWaveTabbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJCWaveTabbar-prefix.pch"; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		77C657BB3B6601E43F55CAA6C2738548 /* Pods-ZJCWaveTabbar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJCWaveTabbar_Tests-resources.sh"; sourceTree = "<group>"; };
-		7867F8F1D9B0BC5477B45EC15B0EF466 /* Pods_ZJCWaveTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJCWaveTabbar_Tests.framework; path = "Pods-ZJCWaveTabbar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79B5916127BA77067C339C9A23BD4414 /* DrawRectObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawRectObject.h; sourceTree = "<group>"; };
+		79B14B5F8242018880D3FA5C815881F1 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		7E62EC25F47B2733ACDC155C23FC6B4D /* Pods-ZJCWaveTabbar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJCWaveTabbar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		81AAE5038BE6932F20D60EB091F4305B /* sound_press_long.wav */ = {isa = PBXFileReference; includeInIndex = 1; path = sound_press_long.wav; sourceTree = "<group>"; };
 		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97F2B3419E590C4279479E7721461FF4 /* ZJCWaveTabarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZJCWaveTabarController.m; sourceTree = "<group>"; };
 		9E0E42730A283A62772F041F5C70B5A3 /* Pods-ZJCWaveTabbar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJCWaveTabbar_Example-umbrella.h"; sourceTree = "<group>"; };
-		A09DFA09A1D0C95B8FB3A1CD75EAE3CF /* ZJCWaveTabbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZJCWaveTabbar.framework; path = ZJCWaveTabbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF4EBE6AC19676A8F2E22A39E8D7CD8 /* ZJCWaveTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJCWaveTabbar-dummy.m"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A517A02CD50F6984F84D9BD04813D14A /* Pods-ZJCWaveTabbar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJCWaveTabbar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8B162287AE29D4BA32721AB1397F0AA /* DrawingStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawingStyle.h; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AD1CE167B00BD7D73320F71EE9226E9B /* Pods-ZJCWaveTabbar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJCWaveTabbar_Example-resources.sh"; sourceTree = "<group>"; };
-		B3DFB983366F517D4459FDD860E1AD08 /* ZJCWaveTabarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZJCWaveTabarController.h; sourceTree = "<group>"; };
-		B6D3D3003606E50E3067C7957E1D2AA8 /* DrawingStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawingStyle.h; sourceTree = "<group>"; };
+		AE95E0AFE3EA708E0210E577000AABE3 /* DrawRectObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DrawRectObject.h; sourceTree = "<group>"; };
+		B20241377324589824D83F49CFDA7BD6 /* DrawRectObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawRectObject.m; sourceTree = "<group>"; };
 		B7EDCAAA28FB6A4CA8145D7873A50D3E /* Pods-ZJCWaveTabbar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ZJCWaveTabbar_Example.modulemap"; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C2B53F02AB230A23E05AB41C0E6EB224 /* ZJCWaveTabbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJCWaveTabbar.xcconfig; sourceTree = "<group>"; };
+		BBC7A498756470D35E9605B6C8CA4467 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C366591702B6A26ABC9CFD63A71CA658 /* Pods-ZJCWaveTabbar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJCWaveTabbar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC12BCFA3FC0B8C307F5B38C673EDD12 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		D3CD044DAE7A67958AE6883E9B40C50B /* Pods-ZJCWaveTabbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJCWaveTabbar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D7F8D1433AB87F4903AA364F1B049ED3 /* ZJCWaveTabbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJCWaveTabbar-dummy.m"; sourceTree = "<group>"; };
+		D69806FDC70115681B5033F60407CEE6 /* ZJCWaveTabbar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ZJCWaveTabbar.modulemap; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		DAE0A1C50905482065B4F42EF593E516 /* ZJCWaveTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJCWaveTabbar-umbrella.h"; sourceTree = "<group>"; };
+		DC11E149DDD8205E4EBC121C49C40473 /* CustomDrawingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CustomDrawingView.h; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		E430F9DD0E5040FB75FAE7996236BB4B /* ZJCWaveTabbar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZJCWaveTabbar.bundle; path = ZJCWaveTabbar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7290C5B33B0B56CB39608063C938F60 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9C6173558469EBDD80325AA53E5AA9 /* Pods-ZJCWaveTabbar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJCWaveTabbar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F5B917FDD85B4897CDB58CEE2C42FC93 /* ReplicatorLineAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReplicatorLineAnimationView.h; sourceTree = "<group>"; };
-		F5BEC495E6F3AC22DAE853235EAEE7FF /* ZJCWaveTabbar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJCWaveTabbar-umbrella.h"; sourceTree = "<group>"; };
-		FF67B176FBF172B34531FFB6041A125D /* DrawingStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DrawingStyle.m; sourceTree = "<group>"; };
+		FAF36A019FB42BE2C5F1DA96B1EF5224 /* Pods_ZJCWaveTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ZJCWaveTabbar_Example.framework; path = "Pods-ZJCWaveTabbar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD850D9A9A8C286D51B67A455F61BAD8 /* ZJCWaveTabarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZJCWaveTabarController.h; sourceTree = "<group>"; };
+		FF105982F35DEE60830DE282A4A73949 /* ReplicatorLineAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ReplicatorLineAnimationView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,25 +179,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1851FCF0A5F358F3FB5C9556B0F8387 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		014CC3B0E41650C89051ED5C298269B5 /* ZJCWaveTabbar */ = {
-			isa = PBXGroup;
-			children = (
-				DD13376A44ED17AF9DF8B3DEA6181431 /* Assets */,
-			);
-			name = ZJCWaveTabbar;
-			path = ZJCWaveTabbar;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,26 +215,33 @@
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		33C7C257348CCD8900FB099D2FC6FA80 /* Classes */ = {
+		26B8FDDCED2A9D44117EEE0128E0DD75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B838C9C61B818B05B26996E870D98EA /* CustomDrawingView.h */,
-				39B225CA03F39327EF9590EEC9AED45A /* CustomDrawingView.m */,
-				0B1F50FB86ED5C212729A8EDF6DBE2A9 /* DrawingColor.h */,
-				56C65C86560140F4D1F80EF448653598 /* DrawingColor.m */,
-				B6D3D3003606E50E3067C7957E1D2AA8 /* DrawingStyle.h */,
-				FF67B176FBF172B34531FFB6041A125D /* DrawingStyle.m */,
-				79B5916127BA77067C339C9A23BD4414 /* DrawRectObject.h */,
-				70B948B967C011461F50BF4656C15405 /* DrawRectObject.m */,
-				F5B917FDD85B4897CDB58CEE2C42FC93 /* ReplicatorLineAnimationView.h */,
-				2610ABEB091B156397E9160B57F54491 /* ReplicatorLineAnimationView.m */,
-				B3DFB983366F517D4459FDD860E1AD08 /* ZJCWaveTabarController.h */,
-				97F2B3419E590C4279479E7721461FF4 /* ZJCWaveTabarController.m */,
-				4E8C0BF76EA52A08840443D1F2FCE55D /* ZJCWaveView.h */,
-				45AD6C4E0AFA625277B7D6EAC67134F4 /* ZJCWaveView.m */,
+				79B14B5F8242018880D3FA5C815881F1 /* FBSnapshotTestCase.framework */,
+				FAF36A019FB42BE2C5F1DA96B1EF5224 /* Pods_ZJCWaveTabbar_Example.framework */,
+				10E1FA3C5A65978F6BE4345C5FADE869 /* Pods_ZJCWaveTabbar_Tests.framework */,
+				4251623B4D09E949ADC2EC75A58DFC24 /* ZJCWaveTabbar.framework */,
 			);
-			name = Classes;
-			path = Classes;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DFF65288034E13BE5987175BC6DCAE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39E25EDC708FE64E78EBDF2F4B700B86 /* ZJCWaveTabbar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		39E25EDC708FE64E78EBDF2F4B700B86 /* ZJCWaveTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D2C564C27CFEF04FCB45F5E4C79A2FDF /* Support Files */,
+				8119285579950D7E076BDA35F8087A19 /* ZJCWaveTabbar */,
+			);
+			name = ZJCWaveTabbar;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		39E7CCC8BDB054840BE8D1796AB9E02A /* Pods-ZJCWaveTabbar_Example */ = {
@@ -285,35 +262,25 @@
 			path = "Target Support Files/Pods-ZJCWaveTabbar_Example";
 			sourceTree = "<group>";
 		};
-		75011C761AA6030043CDC8D1C17A1A61 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				014CC3B0E41650C89051ED5C298269B5 /* ZJCWaveTabbar */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F29BAB65DF746B58E8BD0E7ADDFCF404 /* Development Pods */,
+				34DFF65288034E13BE5987175BC6DCAE /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				EC88CDE623BBFC02278E051E4711A24E /* Products */,
+				26B8FDDCED2A9D44117EEE0128E0DD75 /* Products */,
 				C5E5460D44063ABD25F99E7ACA143CAA /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		856AC146DCFCF395EF45C2C096B43485 /* ZJCWaveTabbar */ = {
+		8119285579950D7E076BDA35F8087A19 /* ZJCWaveTabbar */ = {
 			isa = PBXGroup;
 			children = (
-				75011C761AA6030043CDC8D1C17A1A61 /* Resources */,
-				D7E03FE4CA148E8A8EF04550127FA117 /* Support Files */,
-				E3A703080EF561258A297CA8578B2FE9 /* ZJCWaveTabbar */,
+				8AC1AE6193EED2BF758945F33E03D891 /* Classes */,
 			);
 			name = ZJCWaveTabbar;
-			path = ../..;
+			path = ZJCWaveTabbar;
 			sourceTree = "<group>";
 		};
 		8693B23CC99C853CAA2D8001BDA67D51 /* Pods-ZJCWaveTabbar_Tests */ = {
@@ -332,6 +299,28 @@
 			);
 			name = "Pods-ZJCWaveTabbar_Tests";
 			path = "Target Support Files/Pods-ZJCWaveTabbar_Tests";
+			sourceTree = "<group>";
+		};
+		8AC1AE6193EED2BF758945F33E03D891 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC11E149DDD8205E4EBC121C49C40473 /* CustomDrawingView.h */,
+				34B63B55745A3E4E38F00851EB06A1B0 /* CustomDrawingView.m */,
+				03F2FDBD176C3F2B5FFE7A22FFA79A92 /* DrawingColor.h */,
+				6ADFD103A4B250BE0F804418A46AD825 /* DrawingColor.m */,
+				A8B162287AE29D4BA32721AB1397F0AA /* DrawingStyle.h */,
+				499934B7B030C21FC34AC35E6791CED8 /* DrawingStyle.m */,
+				AE95E0AFE3EA708E0210E577000AABE3 /* DrawRectObject.h */,
+				B20241377324589824D83F49CFDA7BD6 /* DrawRectObject.m */,
+				FF105982F35DEE60830DE282A4A73949 /* ReplicatorLineAnimationView.h */,
+				43F436046BBA3232257BB4C8A489AF89 /* ReplicatorLineAnimationView.m */,
+				FD850D9A9A8C286D51B67A455F61BAD8 /* ZJCWaveTabarController.h */,
+				2A004E5B83168D27EDB302B2E975C8F6 /* ZJCWaveTabarController.m */,
+				2A843481439952F96A5FE79C2C5EA640 /* ZJCWaveView.h */,
+				5A4E318BE531E7AFC707BE2CA070013B /* ZJCWaveView.m */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		8D22B0D091B0427E43C82354D9CA8E06 /* iOS */ = {
@@ -362,58 +351,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D7E03FE4CA148E8A8EF04550127FA117 /* Support Files */ = {
+		D2C564C27CFEF04FCB45F5E4C79A2FDF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0E137A0F55F827D8A126B360112D61EA /* Info.plist */,
-				10DA2B96E7325BF3A49B5F2598CDA275 /* ResourceBundle-ZJCWaveTabbar-Info.plist */,
-				46809374C11312F9213E7BEAB2563A15 /* ZJCWaveTabbar.modulemap */,
-				C2B53F02AB230A23E05AB41C0E6EB224 /* ZJCWaveTabbar.xcconfig */,
-				D7F8D1433AB87F4903AA364F1B049ED3 /* ZJCWaveTabbar-dummy.m */,
-				023E737FC21F031E098D5EC8C0FD2D17 /* ZJCWaveTabbar-prefix.pch */,
-				F5BEC495E6F3AC22DAE853235EAEE7FF /* ZJCWaveTabbar-umbrella.h */,
+				BBC7A498756470D35E9605B6C8CA4467 /* Info.plist */,
+				D69806FDC70115681B5033F60407CEE6 /* ZJCWaveTabbar.modulemap */,
+				3E82444C747F4D8C80EBB86B9E624154 /* ZJCWaveTabbar.xcconfig */,
+				9FF4EBE6AC19676A8F2E22A39E8D7CD8 /* ZJCWaveTabbar-dummy.m */,
+				73ABD6D026A0CBA1A91D9FA324ACCE0E /* ZJCWaveTabbar-prefix.pch */,
+				DAE0A1C50905482065B4F42EF593E516 /* ZJCWaveTabbar-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/ZJCWaveTabbar";
-			sourceTree = "<group>";
-		};
-		DD13376A44ED17AF9DF8B3DEA6181431 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				81AAE5038BE6932F20D60EB091F4305B /* sound_press_long.wav */,
-				4C687F0A0BA783246AF34003FCDAF13E /* sound_press_short.wav */,
-			);
-			name = Assets;
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		E3A703080EF561258A297CA8578B2FE9 /* ZJCWaveTabbar */ = {
-			isa = PBXGroup;
-			children = (
-				33C7C257348CCD8900FB099D2FC6FA80 /* Classes */,
-			);
-			name = ZJCWaveTabbar;
-			path = ZJCWaveTabbar;
-			sourceTree = "<group>";
-		};
-		EC88CDE623BBFC02278E051E4711A24E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E7290C5B33B0B56CB39608063C938F60 /* FBSnapshotTestCase.framework */,
-				1120D71CB51ECD28062FD07E61C836F2 /* Pods_ZJCWaveTabbar_Example.framework */,
-				7867F8F1D9B0BC5477B45EC15B0EF466 /* Pods_ZJCWaveTabbar_Tests.framework */,
-				E430F9DD0E5040FB75FAE7996236BB4B /* ZJCWaveTabbar.bundle */,
-				A09DFA09A1D0C95B8FB3A1CD75EAE3CF /* ZJCWaveTabbar.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F29BAB65DF746B58E8BD0E7ADDFCF404 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				856AC146DCFCF395EF45C2C096B43485 /* ZJCWaveTabbar */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -503,35 +452,16 @@
 			buildPhases = (
 				551D83FB79BBC04270E37AE702F11E39 /* Sources */,
 				B0C397C522A450EAC86125C50BD9B319 /* Frameworks */,
-				A785EAB4F25FE5E44790F1284229729F /* Resources */,
 				66D1937B7036CACDC51D827A1B9BFC71 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE7B3ACEFF8961CC33B9035432A46087 /* PBXTargetDependency */,
 			);
 			name = ZJCWaveTabbar;
 			productName = ZJCWaveTabbar;
-			productReference = A09DFA09A1D0C95B8FB3A1CD75EAE3CF /* ZJCWaveTabbar.framework */;
+			productReference = 4251623B4D09E949ADC2EC75A58DFC24 /* ZJCWaveTabbar.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		26470F509767601C69F2735A9B87E081 /* ZJCWaveTabbar-ZJCWaveTabbar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F6D11400CC32AFCC03C891BA98FBA7C /* Build configuration list for PBXNativeTarget "ZJCWaveTabbar-ZJCWaveTabbar" */;
-			buildPhases = (
-				82348DE951F9F00B38834184D6D54C46 /* Sources */,
-				D1851FCF0A5F358F3FB5C9556B0F8387 /* Frameworks */,
-				D4F6C64B9AFEEE0C72021657A10F9D6A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ZJCWaveTabbar-ZJCWaveTabbar";
-			productName = "ZJCWaveTabbar-ZJCWaveTabbar";
-			productReference = E430F9DD0E5040FB75FAE7996236BB4B /* ZJCWaveTabbar.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
@@ -547,7 +477,7 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = E7290C5B33B0B56CB39608063C938F60 /* FBSnapshotTestCase.framework */;
+			productReference = 79B14B5F8242018880D3FA5C815881F1 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		370ABAC0B730701C2FA54232FCB1EEE2 /* Pods-ZJCWaveTabbar_Tests */ = {
@@ -565,7 +495,7 @@
 			);
 			name = "Pods-ZJCWaveTabbar_Tests";
 			productName = "Pods-ZJCWaveTabbar_Tests";
-			productReference = 7867F8F1D9B0BC5477B45EC15B0EF466 /* Pods_ZJCWaveTabbar_Tests.framework */;
+			productReference = 10E1FA3C5A65978F6BE4345C5FADE869 /* Pods_ZJCWaveTabbar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7F753B2AAB7A43259E1B1B574DFE2073 /* Pods-ZJCWaveTabbar_Example */ = {
@@ -583,7 +513,7 @@
 			);
 			name = "Pods-ZJCWaveTabbar_Example";
 			productName = "Pods-ZJCWaveTabbar_Example";
-			productReference = 1120D71CB51ECD28062FD07E61C836F2 /* Pods_ZJCWaveTabbar_Example.framework */;
+			productReference = FAF36A019FB42BE2C5F1DA96B1EF5224 /* Pods_ZJCWaveTabbar_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -603,7 +533,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EC88CDE623BBFC02278E051E4711A24E /* Products */;
+			productRefGroup = 26B8FDDCED2A9D44117EEE0128E0DD75 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -611,30 +541,9 @@
 				7F753B2AAB7A43259E1B1B574DFE2073 /* Pods-ZJCWaveTabbar_Example */,
 				370ABAC0B730701C2FA54232FCB1EEE2 /* Pods-ZJCWaveTabbar_Tests */,
 				2029CF5F37F0C7AFA2B09845243FA063 /* ZJCWaveTabbar */,
-				26470F509767601C69F2735A9B87E081 /* ZJCWaveTabbar-ZJCWaveTabbar */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		A785EAB4F25FE5E44790F1284229729F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10AE807ADA3BAA41B8C4B4ED8F1C4264 /* ZJCWaveTabbar.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D4F6C64B9AFEEE0C72021657A10F9D6A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88040D1BCF5CD9106316D80ED1C19BA8 /* sound_press_long.wav in Resources */,
-				30B71671A812D7000D53CCF018FB23A2 /* sound_press_short.wav in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C04ECC6122FCE2198FC30D5C5D28943 /* Sources */ = {
@@ -657,13 +566,6 @@
 				B54E0890E6766611E79C35D4A7E86487 /* ZJCWaveTabarController.m in Sources */,
 				B5539D5641480F1B5ABE7A33BC711465 /* ZJCWaveTabbar-dummy.m in Sources */,
 				275CBA6E1C25C2FA71E5AB58F877EB52 /* ZJCWaveView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82348DE951F9F00B38834184D6D54C46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -705,12 +607,6 @@
 			name = FBSnapshotTestCase;
 			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
 			targetProxy = 0AAA3A071763ACD01D9E1A837B7055FA /* PBXContainerItemProxy */;
-		};
-		BE7B3ACEFF8961CC33B9035432A46087 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZJCWaveTabbar-ZJCWaveTabbar";
-			target = 26470F509767601C69F2735A9B87E081 /* ZJCWaveTabbar-ZJCWaveTabbar */;
-			targetProxy = F342E77BD43A21ED12C5685DE80DCFB4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -838,7 +734,7 @@
 		};
 		63C05C23920FB2DD4EB7802CFBAF8DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2B53F02AB230A23E05AB41C0E6EB224 /* ZJCWaveTabbar.xcconfig */;
+			baseConfigurationReference = 3E82444C747F4D8C80EBB86B9E624154 /* ZJCWaveTabbar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -867,23 +763,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		81BD3E534DE0F67514B371D3F5771D72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2B53F02AB230A23E05AB41C0E6EB224 /* ZJCWaveTabbar.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZJCWaveTabbar";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ZJCWaveTabbar/ResourceBundle-ZJCWaveTabbar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZJCWaveTabbar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		B034466EA4CDC58907E1375C0263B4DA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1040,23 +919,6 @@
 			};
 			name = Debug;
 		};
-		D8DCFD7CA7C49918A342662102A9CC50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2B53F02AB230A23E05AB41C0E6EB224 /* ZJCWaveTabbar.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZJCWaveTabbar";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/ZJCWaveTabbar/ResourceBundle-ZJCWaveTabbar-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = ZJCWaveTabbar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		F6DBA53A4511720174B84279A5CEB561 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DADAF30F2D84FDAAD2ADD2D50C1F40DF /* FBSnapshotTestCase.xcconfig */;
@@ -1093,7 +955,7 @@
 		};
 		F9E5718EB8A619562F704F124660E2E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2B53F02AB230A23E05AB41C0E6EB224 /* ZJCWaveTabbar.xcconfig */;
+			baseConfigurationReference = 3E82444C747F4D8C80EBB86B9E624154 /* ZJCWaveTabbar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1131,15 +993,6 @@
 			buildConfigurations = (
 				C104F7F091290C3D1E248192F07FE689 /* Debug */,
 				34FE9531DA9AF2820790339988D5FF41 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4F6D11400CC32AFCC03C891BA98FBA7C /* Build configuration list for PBXNativeTarget "ZJCWaveTabbar-ZJCWaveTabbar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8DCFD7CA7C49918A342662102A9CC50 /* Debug */,
-				81BD3E534DE0F67514B371D3F5771D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
