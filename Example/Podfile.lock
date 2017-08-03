@@ -12,12 +12,12 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   ZJCWaveTabbar:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  ZJCWaveTabbar: cd5bb74390cfb6263898fb893d6ca0f1ecf4f672
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  ZJCWaveTabbar: a423f179f41fab61503725c1b10cef3d4db0f6d4
 
 PODFILE CHECKSUM: 2c30c7f6688cbab533e075d75e785861f3b49f5b
 
-COCOAPODS: 1.2.1.rc.1
+COCOAPODS: 1.2.1
