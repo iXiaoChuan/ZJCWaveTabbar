@@ -19,5 +19,10 @@
     "ios": "8.0"
   },
   "requires_arc": true,
-  "source_files": "ZJCWaveTabbar/Classes/**/*"
+  "source_files": "ZJCWaveTabbar/Classes/**/*",
+  "resource_bundles": {
+    "ZJCWaveTabbar": [
+      "ZJCWaveTabbar/Assets/*"
+    ]
+  }
 }
