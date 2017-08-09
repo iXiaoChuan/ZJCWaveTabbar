@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A7D7471F3AE5DF00142456 /* ZJCFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A7D7461F3AE5DF00142456 /* ZJCFirstViewController.m */; };
+		37A7D74A1F3AE5E800142456 /* ZJCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A7D7491F3AE5E800142456 /* ZJCSecondViewController.m */; };
+		37A7D74D1F3AE61300142456 /* ZJCThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A7D74C1F3AE61300142456 /* ZJCThirdViewController.m */; };
+		37A7D7501F3AE62400142456 /* ZJCFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A7D74F1F3AE62400142456 /* ZJCFourthViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* ZJCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ZJCAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* ZJCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ZJCViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,7 +25,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7E1F393A82536C590D0058A8 /* Pods_ZJCWaveTabbar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29C22AF05E02E03BC156C9EC /* Pods_ZJCWaveTabbar_Example.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		F2EBE0175BCCA49D8D2908D3 /* Pods_ZJCWaveTabbar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9517BF88C76E640E9561D8 /* Pods_ZJCWaveTabbar_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,14 @@
 		076933105457094777FE88A1 /* Pods-ZJCWaveTabbar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJCWaveTabbar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJCWaveTabbar_Tests/Pods-ZJCWaveTabbar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		23D121AD05F4B007FD51475C /* Pods-ZJCWaveTabbar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJCWaveTabbar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJCWaveTabbar_Example/Pods-ZJCWaveTabbar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		29C22AF05E02E03BC156C9EC /* Pods_ZJCWaveTabbar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJCWaveTabbar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A7D7451F3AE5DF00142456 /* ZJCFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCFirstViewController.h; sourceTree = "<group>"; };
+		37A7D7461F3AE5DF00142456 /* ZJCFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCFirstViewController.m; sourceTree = "<group>"; };
+		37A7D7481F3AE5E800142456 /* ZJCSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCSecondViewController.h; sourceTree = "<group>"; };
+		37A7D7491F3AE5E800142456 /* ZJCSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCSecondViewController.m; sourceTree = "<group>"; };
+		37A7D74B1F3AE61300142456 /* ZJCThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCThirdViewController.h; sourceTree = "<group>"; };
+		37A7D74C1F3AE61300142456 /* ZJCThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCThirdViewController.m; sourceTree = "<group>"; };
+		37A7D74E1F3AE62400142456 /* ZJCFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCFourthViewController.h; sourceTree = "<group>"; };
+		37A7D74F1F3AE62400142456 /* ZJCFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCFourthViewController.m; sourceTree = "<group>"; };
 		459718A90747AD6ABBE5C8B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4F9517BF88C76E640E9561D8 /* Pods_ZJCWaveTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJCWaveTabbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50274FC531FEC29E20ACA0E6 /* ZJCWaveTabbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJCWaveTabbar.podspec; path = ../ZJCWaveTabbar.podspec; sourceTree = "<group>"; };
@@ -54,8 +64,6 @@
 		6003F59B195388D20070C39A /* ZJCWaveTabbar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZJCWaveTabbar-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* ZJCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJCAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* ZJCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* ZJCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJCViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* ZJCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ZJCWaveTabbar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJCWaveTabbar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,7 +73,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DA709142174ABA41DA8F68C /* Pods-ZJCWaveTabbar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJCWaveTabbar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJCWaveTabbar_Tests/Pods-ZJCWaveTabbar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1D83F95735EF772C3B5BB88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37A7D7621F3AEA7900142456 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		477B40F7772C8DADE40A03DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,11 +160,15 @@
 			children = (
 				6003F59C195388D20070C39A /* ZJCAppDelegate.h */,
 				6003F59D195388D20070C39A /* ZJCAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* ZJCViewController.h */,
-				6003F5A6195388D20070C39A /* ZJCViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				37A7D7451F3AE5DF00142456 /* ZJCFirstViewController.h */,
+				37A7D7461F3AE5DF00142456 /* ZJCFirstViewController.m */,
+				37A7D7481F3AE5E800142456 /* ZJCSecondViewController.h */,
+				37A7D7491F3AE5E800142456 /* ZJCSecondViewController.m */,
+				37A7D74B1F3AE61300142456 /* ZJCThirdViewController.h */,
+				37A7D74C1F3AE61300142456 /* ZJCThirdViewController.m */,
+				37A7D74E1F3AE62400142456 /* ZJCFourthViewController.h */,
+				37A7D74F1F3AE62400142456 /* ZJCFourthViewController.m */,
+				37A7D7621F3AEA7900142456 /* Assets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for ZJCWaveTabbar";
@@ -159,6 +178,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F595195388D20070C39A /* ZJCWaveTabbar-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -282,7 +302,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -321,9 +340,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZJCWaveTabbar_Example/Pods-ZJCWaveTabbar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ZJCWaveTabbar/ZJCWaveTabbar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJCWaveTabbar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -351,9 +375,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZJCWaveTabbar_Tests/Pods-ZJCWaveTabbar_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,13 +393,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJCWaveTabbar_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F60A1E627C0194DA373A385F /* [CP] Check Pods Manifest.lock */ = {
@@ -381,13 +411,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJCWaveTabbar_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -397,8 +430,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A7D74D1F3AE61300142456 /* ZJCThirdViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ZJCAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* ZJCViewController.m in Sources */,
+				37A7D7501F3AE62400142456 /* ZJCFourthViewController.m in Sources */,
+				37A7D7471F3AE5DF00142456 /* ZJCFirstViewController.m in Sources */,
+				37A7D74A1F3AE5E800142456 /* ZJCSecondViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

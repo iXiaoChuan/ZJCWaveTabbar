@@ -7,12 +7,27 @@
 //
 
 #import "ZJCAppDelegate.h"
+#import "ZJCFirstViewController.h"
+#import "ZJCSecondViewController.h"
+#import "ZJCThirdViewController.h"
+#import "ZJCFourthViewController.h"
+#import "ZJCWaveTabarController.h"
 
 @implementation ZJCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    /** 具体用法 */
+    ZJCWaveTabarController * tabbar = [[ZJCWaveTabarController alloc] initWithThemeColor:[UIColor redColor]];
+    [tabbar addViewControllerWithName:@"ZJCFirstViewController" andTitle:@"one" andNormalImage:@"tb_one_normal.png" andSelectedImage:@"tb_one_selected.png"];
+    [tabbar addViewControllerWithName:@"ZJCSecondViewController" andTitle:@"two" andNormalImage:@"tb_two_normal.png" andSelectedImage:@"tb_two_selected.png"];
+    [tabbar addViewControllerWithName:@"ZJCThirdViewController" andTitle:@"three" andNormalImage:@"tb_three_normal.png" andSelectedImage:@"tb_three_selected.png"];
+    [tabbar addViewControllerWithName:@"ZJCFourthViewController" andTitle:@"four" andNormalImage:@"tb_four_normal.png" andSelectedImage:@"tb_four_selected.png"];
+    
+    [self.window setRootViewController:tabbar];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "ZJCWaveTabbar",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "summary": "ZJCWaveTabbar is a Tabbar with wave effect.",
   "description": "ZJCWaveTabbar是个带有波浪效果的tabbar,现在支持配置颜色,不支持配置根Nav,支持一句配置Controller.",
   "homepage": "https://github.com/iXiaoChuan/ZJCWaveTabbar",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/iXiaoChuan/ZJCWaveTabbar.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,6 +23,11 @@
   "resource_bundles": {
     "ZJCWaveTabbar": [
       "ZJCWaveTabbar/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
     ]
   }
 }
