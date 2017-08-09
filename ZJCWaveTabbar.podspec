@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJCWaveTabbar'
-  s.version          = '0.0.3'
+  s.version          = '0.1.0'
   s.summary          = 'ZJCWaveTabbar is a Tabbar with wave effect.'
   s.description      = <<-DESC
 ZJCWaveTabbar是个带有波浪效果的tabbar,现在支持配置颜色,不支持配置根Nav,支持一句配置Controller.
@@ -35,5 +35,5 @@ ZJCWaveTabbar是个带有波浪效果的tabbar,现在支持配置颜色,不支�
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking', '~> 3.1.0'
 end
