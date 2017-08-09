@@ -29,9 +29,9 @@ ZJCWaveTabbar是个带有波浪效果的tabbar,现在支持配置颜色,不支�
 
   s.source_files = 'ZJCWaveTabbar/Classes/**/*'
   
-  s.resource_bundles = {
-    'ZJCWaveTabbar' => ['ZJCWaveTabbar/Assets/*']
-  }
+  # s.resource_bundles = {
+  #   'ZJCWaveTabbar' => ['ZJCWaveTabbar/Assets/*']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -20,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     /** 具体用法 */
-    ZJCWaveTabarController * tabbar = [[ZJCWaveTabarController alloc] initWithThemeColor:[UIColor redColor]];
+    ZJCWaveTabarController * tabbar = [[ZJCWaveTabarController alloc] initWithThemeColor:[UIColor colorWithRed:135/255.0 green:206/255.0 blue:250/255.0 alpha:1]];
     [tabbar addViewControllerWithName:@"ZJCFirstViewController" andTitle:@"one" andNormalImage:@"tb_one_normal.png" andSelectedImage:@"tb_one_selected.png"];
     [tabbar addViewControllerWithName:@"ZJCSecondViewController" andTitle:@"two" andNormalImage:@"tb_two_normal.png" andSelectedImage:@"tb_two_selected.png"];
     [tabbar addViewControllerWithName:@"ZJCThirdViewController" andTitle:@"three" andNormalImage:@"tb_three_normal.png" andSelectedImage:@"tb_three_selected.png"];
