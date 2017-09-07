@@ -11,6 +11,8 @@
 		37A7D74A1F3AE5E800142456 /* ZJCSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A7D7491F3AE5E800142456 /* ZJCSecondViewController.m */; };
 		37A7D74D1F3AE61300142456 /* ZJCThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A7D74C1F3AE61300142456 /* ZJCThirdViewController.m */; };
 		37A7D7501F3AE62400142456 /* ZJCFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A7D74F1F3AE62400142456 /* ZJCFourthViewController.m */; };
+		37A7D7691F3AF9D400142456 /* sound_press_long.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37A7D7671F3AF9D400142456 /* sound_press_long.wav */; };
+		37A7D76A1F3AF9D400142456 /* sound_press_short.wav in Resources */ = {isa = PBXBuildFile; fileRef = 37A7D7681F3AF9D400142456 /* sound_press_short.wav */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -51,6 +53,8 @@
 		37A7D74C1F3AE61300142456 /* ZJCThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCThirdViewController.m; sourceTree = "<group>"; };
 		37A7D74E1F3AE62400142456 /* ZJCFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCFourthViewController.h; sourceTree = "<group>"; };
 		37A7D74F1F3AE62400142456 /* ZJCFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCFourthViewController.m; sourceTree = "<group>"; };
+		37A7D7671F3AF9D400142456 /* sound_press_long.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_press_long.wav; sourceTree = "<group>"; };
+		37A7D7681F3AF9D400142456 /* sound_press_short.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound_press_short.wav; sourceTree = "<group>"; };
 		459718A90747AD6ABBE5C8B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4F9517BF88C76E640E9561D8 /* Pods_ZJCWaveTabbar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJCWaveTabbar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50274FC531FEC29E20ACA0E6 /* ZJCWaveTabbar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJCWaveTabbar.podspec; path = ../ZJCWaveTabbar.podspec; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 		37A7D7621F3AEA7900142456 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				37A7D7671F3AF9D400142456 /* sound_press_long.wav */,
+				37A7D7681F3AF9D400142456 /* sound_press_short.wav */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 			);
 			name = Assets;
@@ -302,7 +308,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A7D7691F3AF9D400142456 /* sound_press_long.wav in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				37A7D76A1F3AF9D400142456 /* sound_press_short.wav in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);

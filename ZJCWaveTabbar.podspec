@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZJCWaveTabbar'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'ZJCWaveTabbar is a Tabbar with wave effect.'
   s.description      = <<-DESC
 ZJCWaveTabbar是个带有波浪效果的tabbar,现在支持配置颜色,不支持配置根Nav,支持一句配置Controller.
