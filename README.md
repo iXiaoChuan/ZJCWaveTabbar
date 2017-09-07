@@ -29,7 +29,7 @@ iOS : 8.0+
 ```
 
 ## 作者&建议
-作者也是菜鸟一个~欢迎在issue中或者email提各种意见和建议~均会认真考虑和鉴用~ </br>
+作者也是菜鸟一个\~欢迎在issue中或者email提各种意见和建议~均会认真考虑和鉴用\~ </br>
 [iXiaoChuan](!https://github.com/iXiaoChuan), xiaochuan171090331@outlook.com
 
 ## License
